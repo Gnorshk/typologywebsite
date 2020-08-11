@@ -1,0 +1,29 @@
+{
+  "name": "typologywebsite",
+  "version": "1.0.0",
+  "description": "A website containing information and demos about personality types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhex900/typologywebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhex900/typologywebsite/issues"
+  },
+  "homepage": "https://github.com/zhex900/typologywebsite#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "jest": "^26.2.2",
+    "prettier": "2.0.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
