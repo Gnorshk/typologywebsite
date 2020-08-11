@@ -56,16 +56,13 @@ function getTypeFromArray(array) {
     only_one_largest = true
     for (var i = 0; i < array.length; i++) {
         if (largest_value === array[i]) {
-            console.log("multiple largest")
             only_one_largest = false;
         } else if (array[i] > largest_value) {
-            console.log("largest value at " + i)
             only_one_largest = true;
             largest_value = array[i];
             largest_index = i;
         }
     }
-    console.log("largest index: " + largest_index);
     if (only_one_largest === false) {
         return "";
     } else {
